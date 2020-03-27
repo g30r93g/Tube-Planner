@@ -1,0 +1,757 @@
+[{
+        "displayName": "Buckingham Palace",
+        "otherNames": [],
+        "latitude": 51.5014,
+        "longitude": -0.1419
+    },
+    {
+        "displayName": "St. Paul's Cathedral",
+        "otherNames": [],
+        "latitude": 51.5138,
+        "longitude": -0.0984
+    },
+    {
+        "displayName": "Science Museum",
+        "otherNames": [],
+        "latitude": 51.4978,
+        "longitude": -0.1745
+    },
+    {
+        "displayName": "Natural History Museum",
+        "otherNames": [],
+        "latitude": 51.4967,
+        "longitude": -0.1764
+    },
+    {
+        "displayName": "British Library",
+        "otherNames": [],
+        "latitude": 51.5300,
+        "longitude": -0.1277
+    },
+    {
+        "displayName": "British Museum",
+        "otherNames": [],
+        "latitude": 51.5194,
+        "longitude": -0.1270
+    },
+    {
+        "displayName": "Hyde Park",
+        "otherNames": [],
+        "latitude": 51.5073,
+        "longitude": -0.1657
+    },
+    {
+        "displayName": "Tower of London",
+        "otherNames": [],
+        "latitude": 51.5081,
+        "longitude": -0.0759
+    },
+    {
+        "displayName": "Tower Bridge",
+        "otherNames": [],
+        "latitude": 51.5055,
+        "longitude": 0.0754
+    },
+    {
+        "displayName": "The National Gallery",
+        "otherNames": [],
+        "latitude": 51.5089,
+        "longitude": -0.1283
+    },
+    {
+        "displayName": "Houses of Parliament",
+        "otherNames": ["Palace of Westminster"],
+        "latitude": 51.4995,
+        "longitude": -0.1248
+    },
+    {
+        "displayName": "Westminster Abbey",
+        "otherNames": [],
+        "latitude": 51.4993,
+        "longitude": -0.1273
+    },
+    {
+        "displayName": "London Eye",
+        "otherNames": [],
+        "latitude": 51.5033,
+        "longitude": -0.1195
+    },
+    {
+        "displayName": "Victoria and Albert Muesum",
+        "otherNames": ["V&A"],
+        "latitude": 51.4966,
+        "longitude": -0.1722
+    },
+    {
+        "displayName": "Big Ben",
+        "otherNames": ["Elizabeth Tower"],
+        "latitude": 51.5007,
+        "longitude": -0.1246
+    },
+    {
+        "displayName": "Royal Botanic Gardens, Kew",
+        "otherNames": ["Kew Gardens", "Kew Botanical Gardens"],
+        "latitude": 51.4787,
+        "longitude": -0.2956
+    },
+    {
+        "displayName": "Tate Modern",
+        "otherNames": [],
+        "latitude": 51.5076,
+        "longitude": -0.0994
+    },
+    {
+        "displayName": "Somerset House",
+        "otherNames": [],
+        "latitude": 51.5111,
+        "longitude": -0.1171
+    },
+    {
+        "displayName": "ZSL London Zoo",
+        "otherNames": [],
+        "latitude": 51.5353,
+        "longitude": -0.1534
+    },
+    {
+        "displayName": "SEA LIFE London Aquarium",
+        "otherNames": [],
+        "latitude": 51.5022,
+        "longitude": -0.1196
+    },
+    {
+        "displayName": "Chinatown Gate",
+        "otherNames": [],
+        "latitude": 51.5109,
+        "longitude": -0.1318
+    },
+    {
+        "displayName": "Museum of London",
+        "otherNames": [],
+        "latitude": 51.5176,
+        "longitude": -0.0968
+    },
+    {
+        "displayName": "National Portrait Gallery",
+        "otherNames": [],
+        "latitude": 51.5094,
+        "longitude": -0.1281
+    },
+    {
+        "displayName": "The Shard",
+        "otherNames": ["The View from The Shard"],
+        "latitude": 51.5045,
+        "longitude": -0.0865
+    },
+    {
+        "displayName": "Cutty Sark",
+        "otherNames": [],
+        "latitude": 51.4763,
+        "longitude": -0.0058
+    },
+    {
+        "displayName": "Hampstead Heath",
+        "otherNames": [],
+        "latitude": 51.5608,
+        "longitude": 0.1631
+    },
+    {
+        "displayName": "Parliament Hill",
+        "otherNames": [],
+        "latitude": 51.5597,
+        "longitude": -0.1597
+    },
+    {
+        "displayName": "Primrose Hill",
+        "otherNames": [],
+        "latitude": 51.5413,
+        "longitude": -0.1533
+    },
+    {
+        "displayName": "Camden Market",
+        "otherNames": [],
+        "latitude": 51.5382,
+        "longitude": -0.1412
+    },
+    {
+        "displayName": "The O2",
+        "otherNames": ["O2 Arena"],
+        "latitude": 51.5030,
+        "longitude": 0.0032
+    },
+    {
+        "displayName": "National Maritime Museum",
+        "otherNames": [],
+        "latitude": 51.4809,
+        "longitude": -0.0053
+    },
+    {
+        "displayName": "Royal Observatory, Greenwich",
+        "otherNames": [],
+        "latitude": 51.4769,
+        "longitude": -0.0005
+    },
+    {
+        "displayName": "London Transport Museum",
+        "otherNames": ["LTM"],
+        "latitude": 51.5119,
+        "longitude": -0.1216
+    },
+    {
+        "displayName": "Tate Britain",
+        "otherNames": [],
+        "latitude": 51.4911,
+        "longitude": -0.1278
+    },
+    {
+        "displayName": "Royal Air Force Museum",
+        "otherNames": ["RAF Museum"],
+        "latitude": 51.5978,
+        "longitude": -0.2381
+    },
+    {
+        "displayName": "Churchill War Rooms",
+        "otherNames": [],
+        "latitude": 51.5022,
+        "longitude": -0.1294
+    },
+    {
+        "displayName": "Downing Street",
+        "otherNames": [],
+        "latitude": 51.503223,
+        "longitude": -0.127500
+    },
+    {
+        "displayName": "Greenwich Market",
+        "otherNames": [],
+        "latitude": 51.4815,
+        "longitude": -0.0091
+    },
+    {
+        "displayName": "V&A Museum of Childhood",
+        "otherNames": ["The Childhood Museum"],
+        "latitude": 51.5289,
+        "longitude": -0.0554
+    },
+    {
+        "displayName": "Shakespeare's Globe",
+        "otherNames": [],
+        "latitude": 51.5081,
+        "longitude": -0.0972
+    },
+    {
+        "displayName": "Borough Market",
+        "otherNames": [],
+        "latitude": 51.5055,
+        "longitude": 0.0910
+    },
+    {
+        "displayName": "Maltby Street Market",
+        "otherNames": [],
+        "latitude": 51.499515,
+        "longitude": -0.076067
+    },
+    {
+        "displayName": "Portobello Road Market",
+        "otherNames": [],
+        "latitude": 51.5209,
+        "longitude": -0.2091
+    },
+    {
+        "displayName": "Barbican Centre",
+        "otherNames": [],
+        "latitude": 51.5202,
+        "longitude": -0.0938
+    },
+    {
+        "displayName": "Royal Opera House",
+        "otherNames": [],
+        "latitude": 51.5129,
+        "longitude": -0.1222
+    },
+    {
+        "displayName": "Brick Lane",
+        "otherNames": [],
+        "latitude": 51.5198,
+        "longitude": -0.0697
+    },
+    {
+        "displayName": "All England Lawn Tennis & Croquet Club",
+        "otherNames": ["Wimbledon Lawn Tennis Club"],
+        "latitude": 51.4343,
+        "longitude": -0.2145
+    },
+    {
+        "displayName": "Southbank Centre",
+        "otherNames": [],
+        "latitude": 51.5061,
+        "longitude": -0.1163
+    },
+    {
+        "displayName": "Carnaby Street",
+        "otherNames": [],
+        "latitude": 51.513332,
+        "longitude": -0.138889
+    },
+    {
+        "displayName": "Sky Garden",
+        "otherNames": [],
+        "latitude": 51.5112,
+        "longitude": -0.0835
+    },
+    {
+        "displayName": "The Garden at 120",
+        "otherNames": ["120 Fenchurch Street", "Fenchurch Street Roof Garden"],
+        "latitude": 51.5120,
+        "longitude": -0.0811
+    },
+    {
+        "displayName": "Crossrail Place",
+        "otherNames": [],
+        "latitude": 51.5061,
+        "longitude": -0.0175
+    },
+    {
+        "displayName": "Leadenhall Market",
+        "otherNames": [],
+        "latitude": 51.5128,
+        "longitude": -0.0835
+    },
+    {
+        "displayName": "Kyoto Garden",
+        "otherNames": ["Holland Park"],
+        "latitude": 51.5030,
+        "longitude": -0.2047
+    },
+    {
+        "displayName": "The Gherkin",
+        "otherNames": ["30 St Mary Axe"],
+        "latitude": 51.5145,
+        "longitude": -0.0803
+    },
+    {
+        "displayName": "Little Venice",
+        "otherNames": [],
+        "latitude": 51.5235,
+        "longitude": -0.1839
+    },
+    {
+        "displayName": "Barbican Conservatory",
+        "otherNames": [],
+        "latitude": 51.519983,
+        "longitude": -0.093130
+    },
+    {
+        "displayName": "Richmond Park",
+        "otherNames": [],
+        "latitude": 51.4412,
+        "longitude": 0.2745
+    },
+    {
+        "displayName": "ArcelorMittal Orbit",
+        "otherNames": [],
+        "latitude": 51.5384,
+        "longitude": -0.0129
+    },
+    {
+        "displayName": "London Aquatics Centre",
+        "otherNames": [],
+        "latitude": 51.5402,
+        "longitude": -0.0106
+    },
+    {
+        "displayName": "London Stadium",
+        "otherNames": ["West Ham Stadium"],
+        "latitude": 51.5387,
+        "longitude": -0.0166
+    },
+    {
+        "displayName": "Emirates Stadium",
+        "otherNames": ["Arsenal"],
+        "latitude": 51.5549,
+        "longitude": -0.1084
+    },
+    {
+        "displayName": "Wembley Stadium",
+        "otherNames": [],
+        "latitude": 51.5560,
+        "longitude": -0.2795
+    },
+    {
+        "displayName": "Tottenham Hotspur Stadium",
+        "otherNames": ["Shithole", "Spurs"],
+        "latitude": 51.6043,
+        "longitude": -0.0664
+    },
+    {
+        "displayName": "Loftus Road Stadium",
+        "otherNames": ["QPR Stadium", "Queens Park Rangers FC"],
+        "latitude": 51.5093,
+        "longitude": 0.2321
+    },
+    {
+        "displayName": "Stamford Bridge",
+        "otherNames": ["Chelsea FC"],
+        "latitude": 51.4817,
+        "longitude": -0.1910
+    },
+    {
+        "displayName": "Craven Cottage Stadium",
+        "otherNames": ["Fulham FC"],
+        "latitude": 51.4749,
+        "longitude": -0.2218
+    },
+    {
+        "displayName": "Alexandra Palace",
+        "otherNames": [],
+        "latitude": 51.5942,
+        "longitude": -0.1308
+    },
+    {
+        "displayName": "Imperial War Museum",
+        "otherNames": ["IWM"],
+        "latitude": 51.4958,
+        "longitude": -0.1087
+    },
+    {
+        "displayName": "HMS Belfast",
+        "otherNames": [],
+        "latitude": 51.5066,
+        "longitude": -0.0814
+    },
+    {
+        "displayName": "ExCeL Exhibition Center",
+        "otherNames": ["Excel Center"],
+        "latitude": 51.5085,
+        "longitude": 0.0298
+    },
+    {
+        "displayName": "Walthamstow Wetlands",
+        "otherNames": [],
+        "latitude": 51.5855,
+        "longitude": -0.0542
+    },
+    {
+        "displayName": "BFI Southbank",
+        "otherNames": ["BFI IMAX"],
+        "latitude": 51.5067,
+        "longitude": -0.1153
+    },
+    {
+        "displayName": "Bank of England",
+        "otherNames": [],
+        "latitude": 51.5141,
+        "longitude": 0.0884
+    },
+    {
+        "displayName": "BT Tower",
+        "otherNames": [],
+        "latitude": 51.5215,
+        "longitude": -0.1389
+    },
+    {
+        "displayName": "City Hall",
+        "otherNames": [],
+        "latitude": 51.5048,
+        "longitude": -0.0786
+    },
+    {
+        "displayName": "St Katharine Docks",
+        "otherNames": [],
+        "latitude": 51.5064,
+        "longitude": -0.0718
+    },
+    {
+        "displayName": "Canada Square",
+        "otherNames": [],
+        "latitude": 51.5049,
+        "longitude": -0.0194
+    },
+    {
+        "displayName": "Hay's Galleria",
+        "otherNames": [],
+        "latitude": 51.505683,
+        "longitude": -0.083713
+    },
+    {
+        "displayName": "Nelson's Column",
+        "otherNames": [],
+        "latitude": 51.5078,
+        "longitude": -0.1279
+    },
+    {
+        "displayName": "Covent Garden Flower Market",
+        "otherNames": ["New Covent Garden"],
+        "latitude": 51.4797,
+        "longitude": 0.1373
+    },
+    {
+        "displayName": "Kensington Palace",
+        "otherNames": [],
+        "latitude": 51.5050,
+        "longitude": -0.1877
+    },
+    {
+        "displayName": "Thames Barrier",
+        "otherNames": [],
+        "latitude": 51.4970,
+        "longitude": 0.0369
+    },
+    {
+        "displayName": "Guildhall Art Gallery",
+        "otherNames": [],
+        "latitude": 51.5156,
+        "longitude": -0.0916
+    },
+    {
+        "displayName": "Saatchi Gallery",
+        "otherNames": [],
+        "latitude": 51.4907,
+        "longitude": -0.1587
+    },
+    {
+        "displayName": "Lord's Cricket Ground",
+        "otherNames": [],
+        "latitude": 51.5298,
+        "longitude": -0.1722
+    },
+    {
+        "displayName": "The Oval Cricket Ground",
+        "otherNames": [],
+        "latitude": 51.4838,
+        "longitude": -0.1150
+    },
+    {
+        "displayName": "Copper Box Arena",
+        "otherNames": [],
+        "latitude": 51.5444,
+        "longitude": -0.0201
+    },
+    {
+        "displayName": "Westfield Stratford City",
+        "otherNames": [],
+        "latitude": 51.5432,
+        "longitude": -0.0072
+    },
+    {
+        "displayName": "Westfield London",
+        "otherNames": [],
+        "latitude": 51.5077,
+        "longitude": -0.2213
+    },
+    {
+        "displayName": "O2 Academy Brixton",
+        "otherNames": [],
+        "latitude": 51.4656,
+        "longitude": -0.1150
+    },
+    {
+        "displayName": "O2 Forum Kentish Town",
+        "otherNames": [],
+        "latitude": 51.5522,
+        "longitude": -0.1420
+    },
+    {
+        "displayName": "Roundhouse",
+        "otherNames": [],
+        "latitude": 51.5432,
+        "longitude": -0.1519
+    },
+    {
+        "displayName": "Shepherd's Bush Empire",
+        "otherNames": [],
+        "latitude": 51.5035,
+        "longitude": -0.2242
+    },
+    {
+        "displayName": "Spitalfields Market",
+        "otherNames": [],
+        "latitude": 51.5198,
+        "longitude": -0.0768
+    },
+    {
+        "displayName": "Camden Lock",
+        "otherNames": [],
+        "latitude": 51.541009,
+        "longitude": -0.146238
+    },
+    {
+        "displayName": "Crystal Palace Park",
+        "otherNames": [],
+        "latitude": 51.4187,
+        "longitude": -0.0624
+    },
+    {
+        "displayName": "London School of Economics and Political Science",
+        "otherNames": ["LSE"],
+        "latitude": 51.5144,
+        "longitude": -0.1165
+    },
+    {
+        "displayName": "University College London",
+        "otherNames": ["UCL"],
+        "latitude": 51.5246,
+        "longitude": -0.1340
+    },
+    {
+        "displayName": "Royal Holloway, University of London",
+        "otherNames": [],
+        "latitude": 51.4257,
+        "longitude": 0.5631
+    },
+    {
+        "displayName": "University of London",
+        "otherNames": [],
+        "latitude": 51.5229,
+        "longitude": -0.1308
+    },
+    {
+        "displayName": "Queen Mary, Univerity of London",
+        "otherNames": [],
+        "latitude": 51.5241,
+        "longitude": -0.0404
+    },
+    {
+        "displayName": "Brunel University London",
+        "otherNames": [],
+        "latitude": 51.5324,
+        "longitude": -0.4730
+    },
+    {
+        "displayName": "King's College London",
+        "otherNames": ["KCL"],
+        "latitude": 51.5115,
+        "longitude": -0.1160
+    },
+    {
+        "displayName": "Imperial College London",
+        "otherNames": ["ICL"],
+        "latitude": 51.4988,
+        "longitude": -0.1749
+    },
+    {
+        "displayName": "University of Westminster",
+        "otherNames": [],
+        "latitude": 51.5182,
+        "longitude": 0.1411
+    },
+    {
+        "displayName": "Goldsmiths, University of London",
+        "otherNames": [],
+        "latitude": 51.4743,
+        "longitude": -0.0354
+    },
+    {
+        "displayName": "Birkbeck, University of London",
+        "otherNames": [],
+        "latitude": 51.5220,
+        "longitude": -0.1300
+    },
+    {
+        "displayName": "SOAS University of London",
+        "otherNames": [],
+        "latitude": 51.5224,
+        "longitude": -0.1293
+    },
+    {
+        "displayName": "City, University of London",
+        "otherNames": [],
+        "latitude": 51.5280,
+        "longitude": -0.1025
+    },
+    {
+        "displayName": "Harrods",
+        "otherNames": [],
+        "latitude": 51.4932,
+        "longitude": -0.1582
+    },
+    {
+        "displayName": "Hamleys",
+        "otherNames": [],
+        "latitude": 51.5128,
+        "longitude": -0.1402
+    },
+    {
+        "displayName": "BBC Television Centre",
+        "otherNames": [],
+        "latitude": 51.510260,
+        "longitude": -0.225337
+    },
+    {
+        "displayName": "BBC Broadcasting House",
+        "otherNames": [],
+        "latitude": 51.5189,
+        "longitude": -0.1439
+    },
+    {
+        "displayName": "Abbey Road",
+        "otherNames": [],
+        "latitude": 51.532005,
+        "longitude": -0.177331
+    },
+    {
+        "displayName": "Supreme Court",
+        "otherNames": [],
+        "latitude": 51.5004,
+        "longitude": -0.1281
+    },
+    {
+        "displayName": "Royal Courts of Justice",
+        "otherNames": [],
+        "latitude": 51.5137,
+        "longitude": -0.1132
+    },
+    {
+        "displayName": "Royal College of Music",
+        "otherNames": [],
+        "latitude": 51.4994,
+        "longitude": -0.1771
+    },
+    {
+        "displayName": "Royal Academy of Music",
+        "otherNames": [],
+        "latitude": 51.5234,
+        "longitude": -0.1517
+    },
+    {
+        "displayName": "Neasden Temple",
+        "otherNames": ["BAPS Shri Swaminarayan Mandir"],
+        "latitude": 51.5475,
+        "longitude": 0.2614
+    },
+    {
+        "displayName": "Madame Tussauds",
+        "otherNames": [],
+        "latitude": 51.5230,
+        "longitude": -0.1544
+    },
+    {
+        "displayName": "Marble Arch",
+        "otherNames": [],
+        "latitude": 51.5131,
+        "longitude": -0.1589
+    },
+    {
+        "displayName": "Wellington Arch",
+        "otherNames": [],
+        "latitude": 51.5026,
+        "longitude": -0.1509
+    },
+    {
+        "displayName": "Hyde Park Speaker’s Corner",
+        "otherNames": [],
+        "latitude": 51.5119,
+        "longitude": -0.1594
+    },
+    {
+        "displayName": "Horse Guards Parade",
+        "otherNames": [],
+        "latitude": 51.5120,
+        "longitude": -0.1311
+    },
+    {
+        "displayName": "Twickenham Stadium",
+        "otherNames": [],
+        "latitude": 51.4559,
+        "longitude": -0.3415
+    }
+]

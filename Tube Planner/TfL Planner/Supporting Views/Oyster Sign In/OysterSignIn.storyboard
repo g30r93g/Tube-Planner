@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PhY-dN-zAY">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Oyster Account View Controller-->
+        <scene sceneID="Es8-HQ-Jc1">
+            <objects>
+                <viewController id="PhY-dN-zAY" customClass="AddOysterAccountViewController" customModule="TfL_Planner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nrB-LG-5bI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWP-ln-LPy" customClass="RoundButton" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="32" y="379" width="350" height="60"/>
+                                <color key="backgroundColor" name="Accent 1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0U2-Ux-9BN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" name="Dark Text"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="continueTapped:" destination="PhY-dN-zAY" eventType="touchUpInside" id="tP1-wF-dMV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Oyster Account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ls-78-LzF">
+                                <rect key="frame" x="60" y="124" width="294" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cha-0b-IQ9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZT-1C-Mum" customClass="BorderedTextField" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="20" y="256" width="374" height="40"/>
+                                <color key="backgroundColor" name="Text Field Background"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Wkx-Ln-a4V"/>
+                                </constraints>
+                                <color key="textColor" name="Text"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Text Field Border"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" name="Secondary Text"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="PhY-dN-zAY" id="Ost-Ya-XZm"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-uL-T0N" customClass="BorderedTextField" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="20" y="314" width="374" height="40"/>
+                                <color key="backgroundColor" name="Text Field Background"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="p9B-gn-Y7L"/>
+                                </constraints>
+                                <color key="textColor" name="Text"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="continue" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Text Field Border"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" name="Secondary Text"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="PhY-dN-zAY" id="5nv-K5-uKx"/>
+                                </connections>
+                            </textField>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="v5t-tC-OyC">
+                                <rect key="frame" x="362" y="124" width="20" height="100"/>
+                                <color key="color" name="Secondary Text"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJn-nT-GCM" customClass="RoundButton" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="32" y="454" width="350" height="60"/>
+                                <color key="backgroundColor" name="Accent 2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="xaB-KB-2dT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" name="Text"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="signUpTapped:" destination="PhY-dN-zAY" eventType="touchUpInside" id="jH5-SM-pr5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWV-7V-gba" customClass="RoundButton" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="32" y="79" width="100" height="40"/>
+                                <color key="backgroundColor" name="Accent 1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7Ph-pm-Tol"/>
+                                    <constraint firstAttribute="width" constant="100" id="hZp-bD-Nky"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="20" maxY="0.0"/>
+                                <state key="normal" title="Back" image="arrow.left" catalog="system">
+                                    <color key="titleColor" red="0.21960784310000001" green="0.21960784310000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dismissTapped:" destination="PhY-dN-zAY" eventType="touchUpInside" id="KT9-ji-lRs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="plX-dQ-Cnk" firstAttribute="trailing" secondItem="uWP-ln-LPy" secondAttribute="trailing" constant="32" id="0Eu-d8-4C2"/>
+                            <constraint firstItem="0Ls-78-LzF" firstAttribute="centerX" secondItem="nrB-LG-5bI" secondAttribute="centerX" id="3vO-BG-Jxw"/>
+                            <constraint firstItem="v5t-tC-OyC" firstAttribute="top" secondItem="0Ls-78-LzF" secondAttribute="top" id="774-2n-xr6"/>
+                            <constraint firstItem="JJn-nT-GCM" firstAttribute="top" secondItem="uWP-ln-LPy" secondAttribute="bottom" constant="15" id="Ddt-50-HDh"/>
+                            <constraint firstItem="lBT-uL-T0N" firstAttribute="top" secondItem="QZT-1C-Mum" secondAttribute="bottom" constant="18" id="Ddy-mn-Ca5"/>
+                            <constraint firstItem="uWP-ln-LPy" firstAttribute="top" secondItem="lBT-uL-T0N" secondAttribute="bottom" constant="25" id="HTN-gN-pyO"/>
+                            <constraint firstItem="v5t-tC-OyC" firstAttribute="bottom" secondItem="0Ls-78-LzF" secondAttribute="bottom" id="Jo8-WV-JC6"/>
+                            <constraint firstItem="QZT-1C-Mum" firstAttribute="top" secondItem="0Ls-78-LzF" secondAttribute="bottom" constant="32" id="K9x-Lr-QZo"/>
+                            <constraint firstItem="0Ls-78-LzF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="plX-dQ-Cnk" secondAttribute="leading" constant="50" id="Naq-Zr-c3A"/>
+                            <constraint firstItem="RWV-7V-gba" firstAttribute="leading" secondItem="uWP-ln-LPy" secondAttribute="leading" id="Uss-J8-pdr"/>
+                            <constraint firstItem="QZT-1C-Mum" firstAttribute="leading" secondItem="plX-dQ-Cnk" secondAttribute="leading" constant="20" id="XRg-Yq-jwp"/>
+                            <constraint firstItem="0Ls-78-LzF" firstAttribute="top" secondItem="RWV-7V-gba" secondAttribute="bottom" constant="5" id="aNK-4y-8DW"/>
+                            <constraint firstItem="v5t-tC-OyC" firstAttribute="leading" secondItem="0Ls-78-LzF" secondAttribute="trailing" constant="8" id="dcB-Nf-42J"/>
+                            <constraint firstItem="lBT-uL-T0N" firstAttribute="leading" secondItem="QZT-1C-Mum" secondAttribute="leading" id="gFg-Du-TC1"/>
+                            <constraint firstItem="0Ls-78-LzF" firstAttribute="top" secondItem="plX-dQ-Cnk" secondAttribute="top" constant="80" id="gOh-F8-TPa"/>
+                            <constraint firstItem="lBT-uL-T0N" firstAttribute="centerX" secondItem="nrB-LG-5bI" secondAttribute="centerX" id="iWw-YC-4qw"/>
+                            <constraint firstItem="v5t-tC-OyC" firstAttribute="trailing" secondItem="uWP-ln-LPy" secondAttribute="trailing" id="kvl-B3-dN0"/>
+                            <constraint firstItem="JJn-nT-GCM" firstAttribute="trailing" secondItem="uWP-ln-LPy" secondAttribute="trailing" id="o3D-eG-k9x"/>
+                            <constraint firstItem="JJn-nT-GCM" firstAttribute="leading" secondItem="uWP-ln-LPy" secondAttribute="leading" id="rLZ-qE-eL8"/>
+                            <constraint firstItem="QZT-1C-Mum" firstAttribute="centerX" secondItem="nrB-LG-5bI" secondAttribute="centerX" id="ug6-Qi-kzK"/>
+                            <constraint firstItem="v5t-tC-OyC" firstAttribute="centerY" secondItem="0Ls-78-LzF" secondAttribute="centerY" id="zMZ-hj-Tep"/>
+                            <constraint firstItem="uWP-ln-LPy" firstAttribute="leading" secondItem="plX-dQ-Cnk" secondAttribute="leading" constant="32" id="ztw-Ko-EEY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="plX-dQ-Cnk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oSh-Ve-fY5"/>
+                    <connections>
+                        <outlet property="dismissButton" destination="RWV-7V-gba" id="MCe-o4-1xe"/>
+                        <outlet property="emailField" destination="QZT-1C-Mum" id="QEz-C5-Jlo"/>
+                        <outlet property="loadingIndicator" destination="v5t-tC-OyC" id="AEW-wY-QYp"/>
+                        <outlet property="passwordField" destination="lBT-uL-T0N" id="URh-n2-xJs"/>
+                        <segue destination="rFw-w1-vrg" kind="presentation" identifier="Select Favourite Card" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="yox-QW-iEz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZZ-eQ-SfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2231.8840579710145" y="626.78571428571422"/>
+        </scene>
+        <!--Choose Favourite Card View Controller-->
+        <scene sceneID="egO-9a-Xp5">
+            <objects>
+                <viewController id="rFw-w1-vrg" customClass="ChooseFavouriteCardViewController" customModule="TfL_Planner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iU4-Ph-6B1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Favourite Card" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezH-Uk-Rhv">
+                                <rect key="frame" x="60" y="124" width="294" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Qwu-IV-6V8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRb-VV-EZQ" customClass="RoundButton" customModule="TfL_Planner" customModuleProvider="target">
+                                <rect key="frame" x="32" y="770" width="350" height="60"/>
+                                <color key="backgroundColor" name="Accent 1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="5gy-YI-ltD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleColor" name="Dark Text"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="continueTapped:" destination="PhY-dN-zAY" eventType="touchUpInside" id="iyu-dg-B8i"/>
+                                    <action selector="doneTapped:" destination="rFw-w1-vrg" eventType="touchUpInside" id="h7J-hq-aoU"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Vxh-Ba-c5n">
+                                <rect key="frame" x="0.0" y="306.5" width="414" height="431.5"/>
+                                <color key="backgroundColor" name="Background"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="0.0" id="HQS-eP-vi9">
+                                    <size key="itemSize" width="365" height="86"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="20" maxX="20" maxY="20"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Card" id="fiu-84-whi" customClass="CardCell" customModule="TfL_Planner" customModuleProvider="target">
+                                        <rect key="frame" x="24.5" y="20" width="365" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="n5m-2d-mk6">
+                                            <rect key="frame" x="0.0" y="0.0" width="365" height="150"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oyster Card" translatesAutoresizingMaskIntoConstraints="NO" id="8PD-J0-e9h">
+                                                    <rect key="frame" x="0.0" y="0.0" width="365" height="150"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance: £--.--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKl-XQ-WAA">
+                                                    <rect key="frame" x="10" y="105" width="122.5" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="OwR-iD-NIV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" name="Text"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•••• •••• •••• 1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ky-Ym-lWZ">
+                                                    <rect key="frame" x="10" y="60" width="159.5" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="oeZ-RK-Vdp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" name="Text"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="02g-f7-Qjc" customClass="RoundImageView" customModule="TfL_Planner" customModuleProvider="target">
+                                                    <rect key="frame" x="295" y="100" width="60" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="VRN-jX-Gdz"/>
+                                                        <constraint firstAttribute="width" constant="60" id="hs0-9N-AZC"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="6"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0GF-lo-QF3" customClass="RoundImageView" customModule="TfL_Planner" customModuleProvider="target">
+                                                    <rect key="frame" x="325" y="9.5" width="30" height="26.5"/>
+                                                    <color key="backgroundColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="5fU-LP-kvg"/>
+                                                        <constraint firstAttribute="width" constant="30" id="w6q-Cx-kQv"/>
+                                                    </constraints>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="inset">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0GF-lo-QF3" firstAttribute="top" secondItem="n5m-2d-mk6" secondAttribute="top" constant="8" id="7Ci-gC-j0y"/>
+                                                <constraint firstItem="ZKl-XQ-WAA" firstAttribute="top" secondItem="9Ky-Ym-lWZ" secondAttribute="bottom" constant="15" id="H04-du-yWP"/>
+                                                <constraint firstAttribute="trailing" secondItem="8PD-J0-e9h" secondAttribute="trailing" id="Q1j-Rl-Io0"/>
+                                                <constraint firstItem="9Ky-Ym-lWZ" firstAttribute="leading" secondItem="n5m-2d-mk6" secondAttribute="leading" constant="10" id="QQQ-9c-ji6"/>
+                                                <constraint firstItem="8PD-J0-e9h" firstAttribute="leading" secondItem="n5m-2d-mk6" secondAttribute="leading" id="Rc3-ug-gqH"/>
+                                                <constraint firstItem="ZKl-XQ-WAA" firstAttribute="leading" secondItem="9Ky-Ym-lWZ" secondAttribute="leading" id="ZEI-Kt-4te"/>
+                                                <constraint firstItem="0GF-lo-QF3" firstAttribute="trailing" secondItem="02g-f7-Qjc" secondAttribute="trailing" id="alx-QO-IIQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="8PD-J0-e9h" secondAttribute="bottom" id="asN-Wa-H8R"/>
+                                                <constraint firstAttribute="trailing" secondItem="02g-f7-Qjc" secondAttribute="trailing" constant="10" id="dXv-qg-8mO"/>
+                                                <constraint firstItem="8PD-J0-e9h" firstAttribute="top" secondItem="n5m-2d-mk6" secondAttribute="top" id="rB9-Hs-vaa"/>
+                                                <constraint firstAttribute="bottom" secondItem="02g-f7-Qjc" secondAttribute="bottom" constant="10" id="rU7-mU-YTN"/>
+                                                <constraint firstItem="9Ky-Ym-lWZ" firstAttribute="centerY" secondItem="8PD-J0-e9h" secondAttribute="centerY" id="rYy-Qy-7ef"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" name="Secondary Background"/>
+                                        <size key="customSize" width="365" height="150"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="balanceExpiry" destination="ZKl-XQ-WAA" id="nC9-VX-Q7o"/>
+                                            <outlet property="cardImage" destination="8PD-J0-e9h" id="ALz-PB-rhM"/>
+                                            <outlet property="cardNumber" destination="9Ky-Ym-lWZ" id="C8v-t2-qOt"/>
+                                            <outlet property="cardVendorImage" destination="02g-f7-Qjc" id="kkE-lc-EvF"/>
+                                            <outlet property="favouriteIndicator" destination="0GF-lo-QF3" id="gzk-mc-5f1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="rFw-w1-vrg" id="aiz-pN-DGn"/>
+                                    <outlet property="delegate" destination="rFw-w1-vrg" id="pOf-h7-hEP"/>
+                                </connections>
+                            </collectionView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="7KB-nc-0ne">
+                                <rect key="frame" x="362" y="124" width="20" height="100"/>
+                                <color key="color" name="Secondary Text"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-9e-Elw">
+                                <rect key="frame" x="25" y="244" width="364" height="57.5"/>
+                                <string key="text">This will allow you to glance at your oyster balance in your widgets as well as indicate if a route cannot be performed with your balance.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" name="Secondary Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="7KB-nc-0ne" firstAttribute="bottom" secondItem="ezH-Uk-Rhv" secondAttribute="bottom" id="5ZJ-Od-jLp"/>
+                            <constraint firstItem="SRb-VV-EZQ" firstAttribute="leading" secondItem="RBE-TZ-YyQ" secondAttribute="leading" constant="32" id="76b-S4-Cbd"/>
+                            <constraint firstItem="7KB-nc-0ne" firstAttribute="trailing" secondItem="SRb-VV-EZQ" secondAttribute="trailing" id="9EM-1O-PbX"/>
+                            <constraint firstItem="7KB-nc-0ne" firstAttribute="leading" secondItem="ezH-Uk-Rhv" secondAttribute="trailing" constant="8" id="Iud-Ez-eZ9"/>
+                            <constraint firstItem="ezH-Uk-Rhv" firstAttribute="centerX" secondItem="RBE-TZ-YyQ" secondAttribute="centerX" id="NEy-Ie-CAY"/>
+                            <constraint firstItem="ezH-Uk-Rhv" firstAttribute="top" secondItem="RBE-TZ-YyQ" secondAttribute="top" constant="80" id="OJr-l7-LfH"/>
+                            <constraint firstItem="Vxh-Ba-c5n" firstAttribute="leading" secondItem="RBE-TZ-YyQ" secondAttribute="leading" id="PMy-lS-8ZJ"/>
+                            <constraint firstItem="RHj-9e-Elw" firstAttribute="centerX" secondItem="RBE-TZ-YyQ" secondAttribute="centerX" id="ViM-I0-YBA"/>
+                            <constraint firstItem="Vxh-Ba-c5n" firstAttribute="centerX" secondItem="iU4-Ph-6B1" secondAttribute="centerX" id="XHB-ci-vZo"/>
+                            <constraint firstItem="RHj-9e-Elw" firstAttribute="leading" secondItem="RBE-TZ-YyQ" secondAttribute="leading" constant="25" id="dj6-J7-q68"/>
+                            <constraint firstItem="Vxh-Ba-c5n" firstAttribute="top" secondItem="RHj-9e-Elw" secondAttribute="bottom" constant="5" id="eu9-Ix-3KR"/>
+                            <constraint firstItem="7KB-nc-0ne" firstAttribute="top" secondItem="ezH-Uk-Rhv" secondAttribute="top" id="gVO-1n-GPZ"/>
+                            <constraint firstItem="RHj-9e-Elw" firstAttribute="top" secondItem="ezH-Uk-Rhv" secondAttribute="bottom" constant="20" id="m5X-Vb-7cq"/>
+                            <constraint firstItem="RBE-TZ-YyQ" firstAttribute="bottom" secondItem="SRb-VV-EZQ" secondAttribute="bottom" constant="32" id="sIQ-Co-HPd"/>
+                            <constraint firstItem="SRb-VV-EZQ" firstAttribute="centerX" secondItem="iU4-Ph-6B1" secondAttribute="centerX" id="ybf-kR-DHN"/>
+                            <constraint firstItem="SRb-VV-EZQ" firstAttribute="top" secondItem="Vxh-Ba-c5n" secondAttribute="bottom" constant="32" id="ztJ-Jx-6jK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RBE-TZ-YyQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardCollectionView" destination="Vxh-Ba-c5n" id="lnI-6D-5bM"/>
+                        <outlet property="done" destination="SRb-VV-EZQ" id="5yQ-js-2h0"/>
+                        <outlet property="loadingIndicator" destination="7KB-nc-0ne" id="KMO-Z0-xxK"/>
+                        <segue destination="bmu-pY-b9g" kind="unwind" identifier="Finish Selecting Card" unwindAction="unwindToSettings:" id="IAx-AF-KYe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSt-uP-aSD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bmu-pY-b9g" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3069.5652173913045" y="626.78571428571422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Oyster Card" width="856" height="540"/>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
+        <image name="star.fill" catalog="system" width="64" height="58"/>
+        <namedColor name="Accent 1">
+            <color red="1" green="0.80784313725490198" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Accent 2">
+            <color red="0.7839999794960022" green="0.17599999904632568" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Background">
+            <color red="0.067000001668930054" green="0.078000001609325409" blue="0.097999997437000275" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Dark Text">
+            <color red="0.056000001728534698" green="0.059000000357627869" blue="0.076999999582767487" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Secondary Background">
+            <color red="0.25900000333786011" green="0.2669999897480011" blue="0.30199998617172241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Secondary Text">
+            <color red="0.77999997138977051" green="0.77999997138977051" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Field Background">
+            <color red="0.093999996781349182" green="0.10999999940395355" blue="0.14100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Field Border">
+            <color red="0.77999997138977051" green="0.77999997138977051" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

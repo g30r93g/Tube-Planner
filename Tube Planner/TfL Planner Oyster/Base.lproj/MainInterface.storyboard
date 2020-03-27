@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tube-Medium.otf">
+            <string>Johnston100-Medium</string>
+        </array>
+        <array key="Tube-Regular.otf">
+            <string>Johnston100-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="TfL_Planner_Today" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWg-Eb-CEQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Number: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcd-26-rQ3">
+                                        <rect key="frame" x="20" y="15" width="280" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="SvH-06-gV5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Johnston100-Medium" family="Johnston100" pointSize="21"/>
+                                        <color key="textColor" name="Text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKQ-BH-ENu">
+                                        <rect key="frame" x="20" y="50" width="280" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="3OW-zo-ia3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Johnston100-Medium" family="Johnston100" pointSize="21"/>
+                                        <color key="textColor" name="Text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tKQ-BH-ENu" firstAttribute="top" secondItem="qcd-26-rQ3" secondAttribute="bottom" constant="10" id="T7j-r6-eua"/>
+                                    <constraint firstAttribute="trailing" secondItem="tKQ-BH-ENu" secondAttribute="trailing" constant="20" id="XB7-i2-Aac"/>
+                                    <constraint firstItem="tKQ-BH-ENu" firstAttribute="leading" secondItem="iWg-Eb-CEQ" secondAttribute="leading" constant="20" id="bDz-Xr-5Nr"/>
+                                    <constraint firstAttribute="trailing" secondItem="qcd-26-rQ3" secondAttribute="trailing" constant="20" id="bYk-ma-d0l"/>
+                                    <constraint firstItem="qcd-26-rQ3" firstAttribute="leading" secondItem="iWg-Eb-CEQ" secondAttribute="leading" constant="20" id="gEa-RL-tY2"/>
+                                    <constraint firstItem="qcd-26-rQ3" firstAttribute="top" secondItem="iWg-Eb-CEQ" secondAttribute="top" constant="15" id="m6o-LN-qre"/>
+                                    <constraint firstAttribute="height" constant="90" id="qG5-LI-J85"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jUc-ig-4TE">
+                                <rect key="frame" x="0.0" y="90" width="320" height="10"/>
+                                <color key="backgroundColor" name="Accent 1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="owL-3T-yCZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Journey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQe-xa-20L">
+                                <rect key="frame" x="20" y="110" width="280" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Wfc-XL-VmV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Johnston100-Medium" family="Johnston100" pointSize="21"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAC-Nr-Lez">
+                                <rect key="frame" x="30" y="170" width="270" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="o5r-cy-dlf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Johnston100-Regular" family="Johnston100" pointSize="20"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1z-YK-TGj">
+                                <rect key="frame" x="30" y="140" width="270" height="25"/>
+                                <color key="tintColor" name="Accent 1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="dvd-Ji-UFk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Johnston100-Regular" family="Johnston100" pointSize="20"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKH-Nc-VDh">
+                                <rect key="frame" x="30" y="200" width="270" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Q7Q-tI-M9I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Johnston100-Regular" family="Johnston100" pointSize="20"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fare: Fetching..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnE-Dn-mNw">
+                                <rect key="frame" x="30" y="230" width="270" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="oL9-LY-3ml"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Johnston100-Regular" family="Johnston100" pointSize="20"/>
+                                <color key="textColor" name="Text"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jUc-ig-4TE" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="4ax-fl-eAv"/>
+                            <constraint firstItem="n1z-YK-TGj" firstAttribute="trailing" secondItem="gQe-xa-20L" secondAttribute="trailing" id="Bb7-zp-GSN"/>
+                            <constraint firstItem="SnE-Dn-mNw" firstAttribute="leading" secondItem="n1z-YK-TGj" secondAttribute="leading" id="Eqj-Mm-eG8"/>
+                            <constraint firstItem="gQe-xa-20L" firstAttribute="leading" secondItem="tKQ-BH-ENu" secondAttribute="leading" id="F7e-GS-s2b"/>
+                            <constraint firstItem="RAC-Nr-Lez" firstAttribute="top" secondItem="n1z-YK-TGj" secondAttribute="bottom" constant="5" id="Hlz-g7-TvO"/>
+                            <constraint firstItem="jUc-ig-4TE" firstAttribute="trailing" secondItem="ssy-KU-ocm" secondAttribute="trailing" id="IqF-CZ-Cv4"/>
+                            <constraint firstItem="jUc-ig-4TE" firstAttribute="top" secondItem="iWg-Eb-CEQ" secondAttribute="bottom" id="J3e-L3-bry"/>
+                            <constraint firstItem="jUc-ig-4TE" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="Jdg-Ez-gze"/>
+                            <constraint firstItem="jUc-ig-4TE" firstAttribute="trailing" secondItem="ssy-KU-ocm" secondAttribute="trailing" id="L3j-36-MWv"/>
+                            <constraint firstItem="gQe-xa-20L" firstAttribute="top" secondItem="jUc-ig-4TE" secondAttribute="bottom" constant="10" id="LOS-SS-t9f"/>
+                            <constraint firstItem="n1z-YK-TGj" firstAttribute="top" secondItem="gQe-xa-20L" secondAttribute="bottom" constant="5" id="MCc-dF-leO"/>
+                            <constraint firstItem="xKH-Nc-VDh" firstAttribute="trailing" secondItem="RAC-Nr-Lez" secondAttribute="trailing" id="RQe-v5-hkw"/>
+                            <constraint firstItem="SnE-Dn-mNw" firstAttribute="trailing" secondItem="n1z-YK-TGj" secondAttribute="trailing" id="UIs-el-3NM"/>
+                            <constraint firstItem="xKH-Nc-VDh" firstAttribute="top" secondItem="RAC-Nr-Lez" secondAttribute="bottom" constant="5" id="UXs-5Y-fWa"/>
+                            <constraint firstItem="iWg-Eb-CEQ" firstAttribute="trailing" secondItem="ssy-KU-ocm" secondAttribute="trailing" id="ZNv-vG-KHZ"/>
+                            <constraint firstItem="xKH-Nc-VDh" firstAttribute="leading" secondItem="RAC-Nr-Lez" secondAttribute="leading" id="aR5-oR-PJ7"/>
+                            <constraint firstItem="iWg-Eb-CEQ" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="cMP-xo-rfp"/>
+                            <constraint firstItem="n1z-YK-TGj" firstAttribute="leading" secondItem="gQe-xa-20L" secondAttribute="leading" constant="10" id="fYK-qJ-OwM"/>
+                            <constraint firstItem="RAC-Nr-Lez" firstAttribute="leading" secondItem="SnE-Dn-mNw" secondAttribute="leading" id="faX-QM-hG7"/>
+                            <constraint firstItem="RAC-Nr-Lez" firstAttribute="trailing" secondItem="SnE-Dn-mNw" secondAttribute="trailing" id="hh7-ik-Xdt"/>
+                            <constraint firstItem="SnE-Dn-mNw" firstAttribute="top" secondItem="xKH-Nc-VDh" secondAttribute="bottom" constant="5" id="nxz-08-Slt"/>
+                            <constraint firstItem="gQe-xa-20L" firstAttribute="trailing" secondItem="tKQ-BH-ENu" secondAttribute="trailing" id="rT9-Tu-ebB"/>
+                            <constraint firstItem="iWg-Eb-CEQ" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="zMG-DV-umK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="260"/>
+                    <connections>
+                        <outlet property="cardBalance" destination="tKQ-BH-ENu" id="sTV-Qh-cWk"/>
+                        <outlet property="cardNumber" destination="qcd-26-rQ3" id="5MC-HJ-f2n"/>
+                        <outlet property="lastJourneyDate" destination="n1z-YK-TGj" id="uu4-up-uHe"/>
+                        <outlet property="lastJourneyFare" destination="SnE-Dn-mNw" id="oRG-Cv-6kb"/>
+                        <outlet property="lastJourneyFrom" destination="RAC-Nr-Lez" id="uxF-Ib-ljn"/>
+                        <outlet property="lastJourneyTo" destination="xKH-Nc-VDh" id="WXq-xA-8lI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="136.60714285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Accent 1">
+            <color red="1" green="0.80800002813339233" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" name="Accent 1"/>
+</document>

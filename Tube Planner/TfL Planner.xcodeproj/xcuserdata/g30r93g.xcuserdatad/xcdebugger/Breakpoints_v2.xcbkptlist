@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "79661331-6702-4699-BC4F-9C7966D73386"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AB53122-2026-47B6-91BD-75AD3ADB68FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Arrivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C51BFA2F-18CC-4B51-9A6B-E99EA2C7A182"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Arrivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D76CBBE8-6C6D-4B05-9C47-8822B15D9DA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Arrivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B3E05AB-B0E0-421A-A0F6-BF6CBFDA015B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Arrivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3B3E05AB-B0E0-421A-A0F6-BF6CBFDA015B - 337c7322a9f657c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getter of fetchedArrivals #1 : Swift.Array&lt;TfL_Planner.Arrivals.Arrival&gt; in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in TfL_Planner.Arrivals.(fetchArrivals in _4C8BFAB6B483FD17D61C03C09D20D8BE)(for: TfL_Planner.Arrivals.(FetchType in _4C8BFAB6B483FD17D61C03C09D20D8BE), naptan: Swift.String, completion: (Swift.Array&lt;TfL_Planner.Arrivals.Arrival&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TfL Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/g30r93g/Local_Documents/GitHub/Tube-Planner/TfL%20Planner/TfL%20Planner/Models/Arrivals.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "501">
+               </Location>
+               <Location
+                  uuid = "3B3E05AB-B0E0-421A-A0F6-BF6CBFDA015B - 8f741d6c79e60b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TfL_Planner.Arrivals.RailArrival) -&gt; TfL_Planner.Arrivals.Arrival in getter of fetchedArrivals #1 : Swift.Array&lt;TfL_Planner.Arrivals.Arrival&gt; in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in TfL_Planner.Arrivals.(fetchArrivals in _4C8BFAB6B483FD17D61C03C09D20D8BE)(for: TfL_Planner.Arrivals.(FetchType in _4C8BFAB6B483FD17D61C03C09D20D8BE), naptan: Swift.String, completion: (Swift.Array&lt;TfL_Planner.Arrivals.Arrival&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TfL Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/g30r93g/Local_Documents/GitHub/Tube-Planner/TfL%20Planner/TfL%20Planner/Models/Arrivals.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0536798-F154-44F1-9BB1-B97C20374B3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Arrivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52BBC518-A534-437F-A5B3-B0B95EC86286"
+            shouldBeEnabled = "No"
+            condition = "heuristic == .fewestChanges"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Graph.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "kShortestPaths(graph:start:goal:numberOfPaths:heuristic:completion:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E54B83B8-7643-4D18-8A95-FE44C5F5263D"
+            shouldBeEnabled = "No"
+            condition = "heuristic == .fewestChanges"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TfL Planner/Models/Graph.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "kShortestPaths(graph:start:goal:numberOfPaths:heuristic:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
